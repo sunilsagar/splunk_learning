@@ -14,7 +14,7 @@ splunk helpers are running (PIDs: 27451 27689 27731 27739).
 ```bash
 splunk stop
 ```
-``
+```
 ❯ ./splunk stop
 Stopping splunkd...
 Shutting down.  Please wait, as this may take a few minutes.
@@ -26,13 +26,13 @@ Done.
 ❯ ./splunk status
 splunkd is not running.
 ❯
-``
+```
 
 ## 3. Start Splunk
 ```bash
 splunk start
 ```
-``
+```
 ❯ ./splunk start
 
 Splunk> Needle. Haystack. Found.
@@ -68,4 +68,4 @@ If you get stuck, we're here to help.
 Look for answers here: http://docs.splunk.com
 
 The Splunk web interface is at http://<HOSTNAME>:8000
-``
+```

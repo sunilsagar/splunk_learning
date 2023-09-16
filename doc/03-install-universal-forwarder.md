@@ -62,10 +62,10 @@ Done
 ## Add Receiver
 
    * Login to the Splunk Console.
-   * Navigate to: **Settings** > **Forwarding and Receiving**.
-   * Under "Receive data," click on "**+ Add New**."
+   * Navigate to: "**Settings** > **Forwarding and Receiving**".
+   * Under "Receive data," click on "**+ Add New**".
 
 ![Configure Receiver](../images/settings-configure-receiver.png "Configure Receiver")
 
-   * Add the value `9997` for "**Listen on this port**."
-   * Click on "**Save**."
+   * Add the value `9997` for "**Listen on this port**".
+   * Click on "**Save**".

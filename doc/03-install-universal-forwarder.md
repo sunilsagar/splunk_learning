@@ -4,6 +4,12 @@
 
 ### MacBook:
 
+Download Universal Fowarder : [Splunk Download](https://www.splunk.com/en_us/download/universal-forwarder.html#)
+
+```bash
+wget -O splunkforwarder-9.1.1-64e843ea36b1-darwin-universal2.tgz "https://download.splunk.com/products/universalforwarder/releases/9.1.1/osx/splunkforwarder-9.1.1-64e843ea36b1-darwin-universal2.tgz"
+```
+
 ```bash
 ./splunk start --accept-license
 This appears to be your first time running this version of Splunk.

@@ -4,11 +4,11 @@
 ```bash
 splunk status
 ```
-``
+```
 ❯ ./splunk status
 splunkd is running (PID: 27450).
 splunk helpers are running (PIDs: 27451 27689 27731 27739).
-``
+```
 
 ## 2. Stop Splunk
 ```bash

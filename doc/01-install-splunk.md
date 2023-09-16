@@ -26,7 +26,7 @@ Password must contain at least:
    * 8 total printable ASCII character(s).
 Please enter a new password:
 Please confirm new password:
-Copying '/Users/swanil/Documents/lab/splunk/splunk/etc/openldap/ldap.conf.default' to '/Users/swanil/Documents/lab/splunk/splunk/etc/openldap/ldap.conf'.
+Copying '/Users/User/Documents/lab/splunk/splunk/etc/openldap/ldap.conf.default' to '/Users/User/Documents/lab/splunk/splunk/etc/openldap/ldap.conf'.
 Generating RSA private key, 2048 bit long modulus
 ....................+++++
 ......................................................................................................................................+++++
@@ -39,7 +39,7 @@ Generating RSA private key, 2048 bit long modulus
 e is 65537 (0x10001)
 writing RSA key
 
-Moving '/Users/swanil/Documents/lab/splunk/splunk/share/splunk/search_mrsparkle/modules.new' to '/Users/swanil/Documents/lab/splunk/splunk/share/splunk/search_mrsparkle/modules'.
+Moving '/Users/User/Documents/lab/splunk/splunk/share/splunk/search_mrsparkle/modules.new' to '/Users/User/Documents/lab/splunk/splunk/share/splunk/search_mrsparkle/modules'.
 
 Splunk> Needle. Haystack. Found.
 
@@ -49,18 +49,18 @@ Checking prerequisites...
 	Checking appserver port [127.0.0.1:8065]: open
 	Checking kvstore port [8191]: open
 	Checking configuration... Done.
-		Creating: /Users/swanil/Documents/lab/splunk/splunk/var/lib/splunk
-		Creating: /Users/swanil/Documents/lab/splunk/splunk/var/run/splunk
-		Creating: /Users/swanil/Documents/lab/splunk/splunk/var/run/splunk/appserver/i18n
-		Creating: /Users/swanil/Documents/lab/splunk/splunk/var/run/splunk/appserver/modules/static/css
-		Creating: /Users/swanil/Documents/lab/splunk/splunk/var/run/splunk/upload
-		Creating: /Users/swanil/Documents/lab/splunk/splunk/var/run/splunk/search_telemetry
-		Creating: /Users/swanil/Documents/lab/splunk/splunk/var/run/splunk/search_log
-		Creating: /Users/swanil/Documents/lab/splunk/splunk/var/spool/splunk
-		Creating: /Users/swanil/Documents/lab/splunk/splunk/var/spool/dirmoncache
-		Creating: /Users/swanil/Documents/lab/splunk/splunk/var/lib/splunk/authDb
-		Creating: /Users/swanil/Documents/lab/splunk/splunk/var/lib/splunk/hashDb
-New certs have been generated in '/Users/swanil/Documents/lab/splunk/splunk/etc/auth'.
+		Creating: /Users/User/Documents/lab/splunk/splunk/var/lib/splunk
+		Creating: /Users/User/Documents/lab/splunk/splunk/var/run/splunk
+		Creating: /Users/User/Documents/lab/splunk/splunk/var/run/splunk/appserver/i18n
+		Creating: /Users/User/Documents/lab/splunk/splunk/var/run/splunk/appserver/modules/static/css
+		Creating: /Users/User/Documents/lab/splunk/splunk/var/run/splunk/upload
+		Creating: /Users/User/Documents/lab/splunk/splunk/var/run/splunk/search_telemetry
+		Creating: /Users/User/Documents/lab/splunk/splunk/var/run/splunk/search_log
+		Creating: /Users/User/Documents/lab/splunk/splunk/var/spool/splunk
+		Creating: /Users/User/Documents/lab/splunk/splunk/var/spool/dirmoncache
+		Creating: /Users/User/Documents/lab/splunk/splunk/var/lib/splunk/authDb
+		Creating: /Users/User/Documents/lab/splunk/splunk/var/lib/splunk/hashDb
+New certs have been generated in '/Users/User/Documents/lab/splunk/splunk/etc/auth'.
 	Checking critical directories...	Done
 	Checking indexes...
 		Validated: _audit _configtracker _internal _introspection _metrics _metrics_rollup _telemetry _thefishbucket history main summary
@@ -69,7 +69,7 @@ New certs have been generated in '/Users/swanil/Documents/lab/splunk/splunk/etc/
 	Checking conf files for problems...
 	Done
 	Checking default conf files for edits...
-	Validating installed files against hashes from '/Users/swanil/Documents/lab/splunk/splunk/splunk-9.1.1-64e843ea36b1-darwin-64-manifest'
+	Validating installed files against hashes from '/Users/User/Documents/lab/splunk/splunk/splunk-9.1.1-64e843ea36b1-darwin-64-manifest'
 	All installed files intact.
 	Done
 All preliminary checks passed.
@@ -81,7 +81,7 @@ Generating a RSA private key
 writing new private key to 'privKeySecure.pem'
 -----
 Signature ok
-subject=/CN=Sunils-M1-MBP/O=SplunkUser
+subject=/CN=My-HostName/O=SplunkUser
 Getting CA Private Key
 writing RSA key
 PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security

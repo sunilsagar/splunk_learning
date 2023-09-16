@@ -60,9 +60,9 @@ Done
 ```
 
 ## Add Reciver
-	a. Login to Splunk Console.
-	b. Navigate to : Settings > "**Forwarding and receiving**"
-	c. Under Receive data , "**+ Add New**"
-	<img src="images/settings-configure-receiver.png" alt="basic splunk architecture" width="400" height="100">
-	d. Add value 9997 for "**Listen on this port**"
-	e. Click "**Save**"
+a. Login to Splunk Console.
+b. Navigate to : Settings > "**Forwarding and receiving**"
+c. Under Receive data , "**+ Add New**"
+<img src="images/settings-configure-receiver.png" alt="basic splunk architecture" width="400" height="100">
+d. Add value 9997 for "**Listen on this port**"
+e. Click "**Save**"

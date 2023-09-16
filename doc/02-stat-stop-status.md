@@ -4,17 +4,17 @@
 ```bash
 splunk status
 ```
-``
+```
 ❯ ./splunk status
 splunkd is running (PID: 27450).
 splunk helpers are running (PIDs: 27451 27689 27731 27739).
-``
+```
 
 ## 2. Stop Splunk
 ```bash
 splunk stop
 ```
-``
+```
 ❯ ./splunk stop
 Stopping splunkd...
 Shutting down.  Please wait, as this may take a few minutes.
@@ -26,13 +26,13 @@ Done.
 ❯ ./splunk status
 splunkd is not running.
 ❯
-``
+```
 
 ## 3. Start Splunk
 ```bash
 splunk start
 ```
-``
+```
 ❯ ./splunk start
 
 Splunk> Needle. Haystack. Found.
@@ -51,7 +51,7 @@ Checking prerequisites...
 	Checking conf files for problems...
 	Done
 	Checking default conf files for edits...
-	Validating installed files against hashes from '/Users/swanil/Documents/lab/splunk/splunk/splunk-9.1.1-64e843ea36b1-darwin-64-manifest'
+	Validating installed files against hashes from '/Users/User/Documents/lab/splunk/splunk/splunk-9.1.1-64e843ea36b1-darwin-64-manifest'
 	All installed files intact.
 	Done
 All preliminary checks passed.
@@ -68,4 +68,4 @@ If you get stuck, we're here to help.
 Look for answers here: http://docs.splunk.com
 
 The Splunk web interface is at http://<HOSTNAME>:8000
-``
+```

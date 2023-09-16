@@ -94,6 +94,12 @@ Waiting for web server at http://127.0.0.1:8000 to be available.................
 If you get stuck, we're here to help.
 Look for answers here: http://docs.splunk.com
 
-The Splunk web interface is at http://Sunils-M1-MBP:8000
+The Splunk web interface is at http://<hostname>:8000 
+This is also accessible at : 
 
+```
+Splunk is also accessible at URL : 
+```bash
+http://localhost:8000
+http://127.0.0.1:8000
 ```

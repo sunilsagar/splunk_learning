@@ -4,4 +4,4 @@ Splunk is a software used for application management, security and compliance, a
 
 ### Basic Architecture for Splunk
 
-![](https://github.com/sunilsagar/splunk_learning/blob/main/images/splunk-architecture.png)
+<img src="images/splunk-architecture.png" alt="basic splunk architecture" width="400" height="400">

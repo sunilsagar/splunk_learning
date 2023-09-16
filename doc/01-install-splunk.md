@@ -8,7 +8,7 @@ You can download Splunk from the official website: [Splunk Download](https://www
 
 ```bash
 # Download Splunk
-Download tar file version
+wget -O splunk-9.1.1-64e843ea36b1-darwin-64.tgz "https://download.splunk.com/products/splunk/releases/9.1.1/osx/splunk-9.1.1-64e843ea36b1-darwin-64.tgz"
 
 # Install Splunk
 tar -xvzf splunk-9.1.1-64e843ea36b1-darwin-64.tgz
